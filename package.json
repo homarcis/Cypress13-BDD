@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate-1",
+  "version": "1.0.0",
+  "description": "template for Softtek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "author": "HACS1",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/cucumber/Tests"
+
+  }
+}
